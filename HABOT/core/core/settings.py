@@ -76,26 +76,26 @@ WSGI_APPLICATION = 'core.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/6.0/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'Employee_Data',      # Ensure you created this in MySQL
-#         'USER': 'root',
-#         'PASSWORD': 'root',
-#         'HOST': 'localhost',
-#         'PORT': '3306',
-#     }
-# }
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'Employee_Data',      # Ensure you created this in MySQL
-        'USER': 'Trilo',
-        'PASSWORD': 'Ojha@123',
-        'HOST': 'Trilo.mysql.pythonanywhere-services.com',
+        'USER': 'root',
+        'PASSWORD': 'root',
+        'HOST': 'localhost',
         'PORT': '3306',
     }
 }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'Employee_Data',      # Ensure you created this in MySQL
+#         'USER': 'Trilo',
+#         'PASSWORD': 'Ojha@123',
+#         'HOST': 'Trilo.mysql.pythonanywhere-services.com',
+#         'PORT': '3306',
+#     }
+# }
 
 
 # Password validation
